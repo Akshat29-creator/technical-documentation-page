@@ -1,48 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Documentation</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="./styles.css">
-    </head>
-    <body>
-        <div class="menu">
-      <header class="border title">CSS Documentation</header>
-      <nav id="navbar">
-        <header>
+<head>
+    <title>CSS Documentation</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <header class="title animated-title">CSS Documentation</header>
+    <nav id="navbar">
         <ul>
-          <a class="nav-link" href="#Introduction"><li class="border">Introduction</li></a>
-          <a class="nav-link" href="#Selectors"><li class="border">Selectors</li></a>
-          <a class="nav-link"n href="#Flexbox"><li class="border">Flexbox</li></a>
-          <a class="nav-link" href="#Colors"><li class="border">Colors</li></a>
-          <a class="nav-link" href="#Text_Styles"><li class="border">Text Styles</li></a>
-          <a class="nav-link" href="#Media_Queries"><li class="border">Media Queries</li></a>
-          <a class="nav-link" href="#References"><li >References</li></a>
+            <a class="nav-link" href="#Introduction"><li class="border animated-link">Introduction</li></a>
+            <a class="nav-link" href="#Selectors"><li class="border animated-link">Selectors</li></a>
+            <a class="nav-link" href="#Flexbox"><li class="border animated-link">Flexbox</li></a>
+            <a class="nav-link" href="#Colors"><li class="border animated-link">Colors</li></a>
+            <a class="nav-link" href="#Text_Styles"><li class="border animated-link">Text Styles</li></a>
+            <a class="nav-link" href="#Media_Queries"><li class="border animated-link">Media Queries</li></a>
+            <a class="nav-link" href="#References"><li class="animated-link">References</li></a>
         </ul>
-        </header>
-      </nav>
-        </div>
-        <main id="main-doc">
-            <section class="main-section" id="Introduction">
-                <header class="title">Introduction</header>
-                <p>CSS are stylesheets used to give styles to websites.</p>
-                <p>CSS means Cascades Stylesheets.</p>
-                <p>Some css attributes are:</p>
-                
-                <ul>
-                    <li>font-famiy</li>
-                    <li>font-size</li>
-                    <li>color</li>
-                    <li>width</li>
-                    <li>padding</li>
-                </ul>
-            </section>
+    </nav>
+    <main id="main-doc">
+        <section class="main-section animated-fadeInUp" id="Introduction">
+            <header class="title animated-fadeInUp">Introduction</header>
+            <p>CSS are stylesheets used to give styles to websites.</p>
+            <p>CSS means Cascades Stylesheets.</p>
+            <p>Some CSS attributes are:</p>
+            
+            <ul>
+                <li>font-family</li>
+                <li>font-size</li>
+                <li>color</li>
+                <li>width</li>
+                <li>padding</li>
+            </ul>
+        </section>
 
-        <section class="main-section" id="Selectors">
-            <header class="title">Selectors</header>
-            <p>To style html elements on css, selectors are key. </p>
-            <p>There are diffents types of selector such as class selectors, id and elements.</p>
+        <section class="main-section animated-fadeInDown" id="Selectors">
+            <header class="title animated-fadeInDown">Selectors</header>
+            <p>To style HTML elements on CSS, selectors are key.</p>
+            <p>There are different types of selectors such as class selectors, id, and elements.</p>
             
             <p>- Class selector syntax</p>
             <code>.className { ... }</code>
@@ -52,27 +48,27 @@
             <code>elementName {... }</code>
         </section>
 
-        <section class="main-section" id="Flexbox">
-            <header class="title">Flexbox</header>
-            <p>Flex-box is a layout alternative which allows the correct distribution of the content on the websites.</p>
-            <p>Some flex-box atributes are: </p> 
+        <section class="main-section animated-fadeInLeft" id="Flexbox">
+            <header class="title animated-fadeInLeft">Flexbox</header>
+            <p>Flexbox is a layout alternative that allows the correct distribution of content on websites.</p>
+            <p>Some flexbox attributes are:</p> 
             
             <h4><strong>justify-content</strong></h4> 
             <p>It takes values like:</p>
-            <code> flex-start, flex-end</code> <br><br>     
-
+            <code> flex-start, flex-end</code>
+            
             <h4><strong>align-items</strong></h4>
             <p>It takes values like:</p> 
-            <code> top, center, bottom</code><br><br>
-
+            <code> top, center, bottom</code>
+            
             <h4><strong>flex-direction</strong></h4>
-            <p>It takes values like:<br></p> 
+            <p>It takes values like:</p> 
             <code> column, row, column-reverse, row-reverse</code>
         </section>
 
-        <section class="main-section" id="Colors">
-            <header class="title">Colors</header>
-            <p>On CSS it's possible to give color to elements and text.</p>
+        <section class="main-section animated-fadeInRight" id="Colors">
+            <header class="title animated-fadeInRight">Colors</header>
+            <p>On CSS, it's possible to give color to elements and text.</p>
             <p>There are three alternatives to do this:</p>
             <ul>
                 <li><h4><strong>Hue</strong></h4></li>
@@ -80,9 +76,10 @@
                 <li><h4><strong>Hexadecimal</strong></h4></li>
             </ul>
         </section>
-        <section class="main-section" id="Text_Styles">
-            <header class="title">Text Styles</header>
-            <p>To style the text it's precise to use the following atributes:</p>
+
+        <section class="main-section animated-fadeInUp" id="Text_Styles">
+            <header class="title animated-fadeInUp">Text Styles</header>
+            <p>To style the text, it's precise to use the following attributes:</p>
             <ul>
                 <li><h4><strong>font-family</strong></h4></li>
                 <li><h4><strong>font-size</strong></h4></li>
@@ -91,17 +88,18 @@
                 <li><h4><strong>color</strong></h4></li>
             </ul>
         </section>
-        <section class="main-section" id="Media_Queries">
-            <header class="title">Media Queries</header>
-            <p>Media queries are used to make websites responsive</p>
+
+        <section class="main-section animated-fadeInDown" id="Media_Queries">
+            <header class="title animated-fadeInDown">Media Queries</header>
+            <p>Media queries are used to make websites responsive.</p>
             <p>- The media query syntax</p>
             <code>@media (dimensions){...}</code>
         </section>
 
-        <section class="main-section" id="References">
-            <header class="title">References</header>
-            <p>You can get more information on <a href="https://www.w3schools.com/css/default.asp">W3School</a></p>
+        <section class="main-section animated-fadeInLeft" id="References">
+            <header class="title animated-fadeInLeft">References</header>
+            <p>You can get more information on <a href="https://www.w3schools.com/css/default.asp" target="_blank">W3School</a></p>
         </section>
-        <main>
-    </body>
+    </main>
+</body>
 </html>
